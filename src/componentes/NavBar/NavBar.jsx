@@ -11,7 +11,7 @@ const NavBar = () => {
         <li className="navbar-item"><a href="#nosotros">Nosotros</a></li>
         <li className="navbar-item"><a href="#contacto">Contacto</a></li>
       </ul>
-      <CartWidget /> {/* Aquí se renderiza el ícono del carrito */}
+      <CartWidget /> {/* Alineado a la derecha */}
     </nav>
   );
 };
